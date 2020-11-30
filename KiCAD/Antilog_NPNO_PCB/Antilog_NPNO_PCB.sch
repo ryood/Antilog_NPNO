@@ -92,13 +92,13 @@ F 3 "~" H 4750 5850 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
-U 1 1 5F8E2874
+U 2 1 5F8E2874
 P 6550 3950
 F 0 "U1" H 6200 4350 50  0000 C CNN
 F 1 "TL072" H 6250 4250 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6550 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6550 3950 50  0001 C CNN
-	1    6550 3950
+	2    6550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -158,13 +158,13 @@ F 3 "~" H 8300 4200 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
-U 2 1 5F8E9E6F
+U 1 1 5F8E9E6F
 P 8600 4900
 F 0 "U1" H 8600 5267 50  0000 C CNN
 F 1 "TL072" H 8600 5176 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8600 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8600 4900 50  0001 C CNN
-	2    8600 4900
+	1    8600 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1022,4 +1022,48 @@ Wire Wire Line
 	4750 3350 4750 3300
 Wire Wire Line
 	4750 3600 4750 3550
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F938EE3
+P 2250 6000
+F 0 "H1" H 2350 6046 50  0000 L CNN
+F 1 "MountingHole" H 2350 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 6000 50  0001 C CNN
+F 3 "~" H 2250 6000 50  0001 C CNN
+	1    2250 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F939774
+P 2250 6300
+F 0 "H2" H 2350 6346 50  0000 L CNN
+F 1 "MountingHole" H 2350 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 6300 50  0001 C CNN
+F 3 "~" H 2250 6300 50  0001 C CNN
+	1    2250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F93B327
+P 2250 6600
+F 0 "H3" H 2350 6646 50  0000 L CNN
+F 1 "MountingHole" H 2350 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 6600 50  0001 C CNN
+F 3 "~" H 2250 6600 50  0001 C CNN
+	1    2250 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F93C152
+P 2250 6900
+F 0 "H4" H 2350 6946 50  0000 L CNN
+F 1 "MountingHole" H 2350 6855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 6900 50  0001 C CNN
+F 3 "~" H 2250 6900 50  0001 C CNN
+	1    2250 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

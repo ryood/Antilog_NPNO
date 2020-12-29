@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Antilog_NPNO"
-Date "2020-12-14"
+Date "2020-12-29"
 Rev "Ver. 1.2"
 Comp "PNPN Manufactory"
 Comment1 ""
@@ -92,13 +92,13 @@ F 3 "~" H 5100 6050 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
-U 2 1 5F8E2874
+U 1 1 5F8E2874
 P 6900 4150
 F 0 "U1" H 6550 4550 50  0000 C CNN
 F 1 "TL072" H 6600 4450 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 6900 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 4150 50  0001 C CNN
-	2    6900 4150
+	1    6900 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -147,13 +147,13 @@ F 3 "~" H 8650 4400 50  0001 C CNN
 $EndComp
 $Comp
 L Amplifier_Operational:TL072 U1
-U 1 1 5F8E9E6F
+U 2 1 5F8E9E6F
 P 8950 5100
 F 0 "U1" H 8950 5467 50  0000 C CNN
 F 1 "TL072" H 8950 5376 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8950 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8950 5100 50  0001 C CNN
-	1    8950 5100
+	2    8950 5100
 	1    0    0    -1  
 $EndComp
 $Comp
